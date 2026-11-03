@@ -24,7 +24,7 @@ chmod +x ~/.local/share/codex-night/codex_night.py
 ln -s ~/.local/share/codex-night/codex_night.py ~/.local/bin/codex-night
 ```
 
-Добавьте `~/.local/bin` в PATH, если его там нет. Репозиторий приватный: для clone нужна ваша GitHub-авторизация.
+Добавьте `~/.local/bin` в PATH, если его там нет.
 Если утилита уже установлена в этот каталог, обновляйте существующую копию, не клонируйте поверх неё.
 Сторонние Python-библиотеки не требуются.
 
@@ -140,3 +140,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest -v test_codex_night test_interacti
 
 Официальные документы: [Codex CLI](https://learn.chatgpt.com/docs/developer-commands?surface=cli),
 [пакетный режим](https://learn.chatgpt.com/docs/non-interactive-mode).
+
+## Лицензия
+
+[MIT](LICENSE).
